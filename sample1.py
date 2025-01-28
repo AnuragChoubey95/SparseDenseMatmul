@@ -1,5 +1,5 @@
 import numpy as np
-import hw3tensor
+import tensor
 import time
 
 np.random.seed(1234567)
