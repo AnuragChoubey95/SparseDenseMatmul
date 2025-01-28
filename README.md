@@ -33,7 +33,7 @@ This project implements a robust framework for performing **Sparse-Dense Matrix 
     - Sparse-Dense matrix multiplication.
     - Utility functions like transpose, add, subtract, reshape, and element-wise operations.
 
-- **`hw3tensor.cc`**:
+- **`tensor.cc`**:
   - Entry point for testing the `Tensor` class.
   - Demonstrates tensor creation, sparsification, and matrix multiplication.
 
@@ -50,4 +50,4 @@ This project implements a robust framework for performing **Sparse-Dense Matrix 
 The project uses a C++ compiler with OpenMP support. Compile the project with the following command:
 
 ```bash
-g++ -std=c++17 -fopenmp hw3tensor.cc -o tensor
+g++ -std=c++17 -fopenmp tensor.cc -o tensor
