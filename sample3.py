@@ -1,5 +1,5 @@
 import numpy as np
-import hw3tensor
+import tensor
 import time
 import math
 
